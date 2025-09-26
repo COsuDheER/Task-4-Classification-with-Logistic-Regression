@@ -18,14 +18,8 @@ The Sigmoid Function (or Logistic Function) is the mathematical core of Logistic
 What it is:
 The sigmoid function, denoted as σ(z), is an S-shaped curve that takes any real-valued number as input and maps it to a value between 0 and 1.
 
-The formula is:
-
-σ(z)= 
-1+e 
-−z
- 
-1
-​
+The formula is: 
+ σ(z)= 1/1+e^-z
  
 where z is the output of the linear model (i.e., z=β_0+β_1x_1+⋯+β_nx_n).
 
